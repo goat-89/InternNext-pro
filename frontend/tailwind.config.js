@@ -1,0 +1,8 @@
+export default {
+  darkMode: 'class',
+  content: ['./index.html','./src/**/*.{js,jsx}'],
+  theme: { extend: {
+    colors: { brand: {50:'#eef2ff',100:'#e0e7ff',500:'#6366f1',600:'#4f46e5',700:'#4338ca',900:'#312e81'} },
+    boxShadow: { soft:'0 20px 50px -24px rgb(15 23 42 / .28)' }
+  }}, plugins: []
+}
