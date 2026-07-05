@@ -1,0 +1,27 @@
+# Frontend environment files and dependencies
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.*.local
+frontend/node_modules/
+frontend/dist/
+backend/node_modules/
+
+# Test and build output
+frontend/playwright-report/
+frontend/test-results/
+frontend/output/
+frontend/tmp/
+coverage/
+
+# Supabase local state
+backend/supabase/.temp/
+backend/supabase/.branches/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
